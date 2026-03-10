@@ -32,24 +32,23 @@ public class pretest {
 
         System.out.print("\n========HASIL KELAYAKAN========");
         System.out.print("\nSemua Memenuhi Kriteria");
-        
+
+        System.out.print("\n========MODEL NESTED IF========");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        if ( usia > 18 ){
+            if ( berat > 64 ){
+                if ( kadar > 12.5){
+                    System.out.print("\nsemua memenuhi kriteria !!!");
+                }else { 
+                    System.out.print ("\ntidak memenuhi kriteria input ulang");
+                }
+            } else {
+                System.out.print("\n tidak memenuhi kriteria input ulang");
+            }
+        }else {
+            System.out.print("\n tidak memenuhi kriteria input ulang");
+        }
 
    }
 }
