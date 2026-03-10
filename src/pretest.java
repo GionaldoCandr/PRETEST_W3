@@ -39,7 +39,7 @@ public class pretest {
         if ( usia > 18 ){
             if ( berat > 64 ){
                 if ( kadar > 12.5){
-                    System.out.print("\nsemua memenuhi kriteria !!!");
+                    System.out.print("\nsemua memenuhi kriteria !=!!");
                 }else { 
                     System.out.print ("\ntidak memenuhi kriteria input ulang");
                 }
